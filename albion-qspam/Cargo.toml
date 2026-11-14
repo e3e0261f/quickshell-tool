@@ -1,0 +1,15 @@
+[package]
+name = "albion-qspam"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+evdev = "0.13"
+
+[[bin]]
+name = "albion-qspam"
+path = "src/main.rs"
+
+[[bin]]
+name = "albion-clicker"
+path = "src/bin/albion_clicker.rs"

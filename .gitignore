@@ -1,0 +1,11 @@
+# 忽略 Cargo 编译生成的整个 target 目录（包含所有大体积编译产物）
+/target/
+
+# 如果是二进制可执行程序项目，建议保留 Cargo.lock；如果是纯库（Library）项目，可取消下面这行的注释
+# Cargo.lock
+
+# 忽略常见的编辑器与系统临时文件
+.vscode/
+.idea/
+.DS_Store
+*.swp
